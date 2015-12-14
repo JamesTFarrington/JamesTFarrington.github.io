@@ -1,0 +1,28 @@
+---
+layout: post
+title: Installing the Abominade IDE.
+date: 2015-12-13 23:53:50
+---
+
+I had some trouble installing the Abominade IDE from several sources. Luckily, it's simple to build yourself.
+Once you've found yourself in the directory where you want your code to live, you'll need to get the source from github.
+
+'''sh
+$ git clone https://github.com/aliafshar/a8/
+'''
+
+Once that's done cd into the directory where your code is located and run make.
+
+'''sh
+$ cd a8
+$ make
+'''
+
+Make will create several new files and folders and open an abominade window. Close the window, and cd into the directory where a8's startup script is located. You can then create a symbolic link to it from anywhere on your $PATH.
+
+'''sh
+cd test-ve/bin/
+ln -s a8 ~/bin
+'''
+
+Now you should be able to invoke the editor from anywhere, and still edit the source code.
