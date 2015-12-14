@@ -1,0 +1,13 @@
+---
+layout: post
+title: What's so great about Luminus anyway?
+date: 2015-12-14 00:53:50
+---
+
+I recently started using the luminus template for web development, and I've got to say I'm increadably impressed. "What is luminus? You ask. Well that's simple. Luminus is a leiningen template combining several Clojure/Clojurescript technologies to make a complete webstack. I say several technologies, because luminus is actually made up of a variety of different projects loosely coupled together. A luminus template can use several different servers. It uses the ring library to interface with whichever server you choose to use. Routing is done with compojure. Luminus can configure itself to work with several different types of sql database. Your new web stack can interface with pretty much any sql database easily using a domain specific language called Yesql. Rather than using an ORM to manage your database, you compose functions out of chunks of sql. If you're worrying about html templating luminus comes with hiccup and selmer by default. If those aren't the templating solution you're looking for luminus can easily be made to work with other templating libraries.
+
+But maybe server side development isn't your thing. A friend of mine once speculated that having server and client side code written in the same language could be a huge advantage for the clojure community. Clojurescipt development has come a long way the past few years. You no longer have to deal with a terrible clojurescript repl.
+
+Have you tried figwheel?
+
+If you program in javascript and you don't know about figwheel, drop what you are doing and go read about figwheel. Just because you don't program in clojurescript doesn't mean you can't hot-swap css and js code into a running website. This makes faster more streamlined programming workflows possible.
